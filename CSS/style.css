@@ -1,3 +1,34 @@
+/*used em for things that needed to scale and px for things i didnt want to scale*/
+body {
+  font-family: "Comic Sans MS", sans-serif;
+  background-color: #121212; /*statistically easiest color to look at*/
+  color: #E0E0E0;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+  margin: 0;
+}
+strong {
+  font-weight: Black;
+}
+
+#planets {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
 td, th {
-	border: 1px solid;
-  }
+  border: 1px solid white;
+  text-align: center;
+  font-size: 2em;
+  padding: 10px;
+}
+/*thought it made it more interesting and unique*/
+td:hover, th:hover {
+  background-color: #E0E0E0;
+  color: #121212;
+}
